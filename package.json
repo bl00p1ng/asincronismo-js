@@ -4,7 +4,7 @@
   "description": "Aprendiendo asincronismo con JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node src/callback/challenge.js"
   },
   "keywords": [
     "asincronismo",
@@ -13,5 +13,8 @@
     "course"
   ],
   "author": "Andrés López <andresfelipe@duck.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
